@@ -1,0 +1,94 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  padding: 0px 50px;
+  margin-bottom: 70px;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: small;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container .left {
+  width: 40%;
+  float: left;
+}
+
+.left .wrap {
+  margin-right: 20px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.container .right {
+  width: 60%;
+  float: left;
+}
+
+.right .label {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.right .input {
+  padding: 7px 5px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+.right .btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .container .right,
+  .container .left {
+    width: 100%;
+    float: left;
+  }
+
+  .body {
+    padding: 0px 10px;
+  }
+
+  .left .wrap {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,51 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  float: left;
+  border-top: 1px solid dimgray;
+  background-color: #4BB1FA;
+
+}
+
+.left-footer,
+.center-footer,
+.right-footer {
+  padding-top: 25px;
+  width: 25%;
+  float: left;
+  padding-left: 50px;
+}
+
+.header-foot {
+  font-weight: 700;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.social-media {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: black;
+}
+
+.svg-icon circle {
+  stroke: black;
+  stroke-width: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .left-footer,
+  .center-footer,
+  .right-footer {
+    margin-top: 25px;
+    width: 100%;
+    float: left;
+    padding-left: 0px;
+  }
+}
